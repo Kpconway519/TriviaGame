@@ -3,7 +3,7 @@
 
 //this is the object which holds the content of the game.
 var triviaObject = {
-questions: ["Which of these states extends the farthest west?", "Which of these former US presidents almost took part in a duel with broadswords (before the other guy backed out)?", "Benjamin Franklin thought the Bald Eagle was dishonorable because it is a scavenger and sometimes steals food from other birds. Which bird did he want to be the national bird instead?", "The country of Sri Lanka was known by this name before 1972:", "This ancient Roman ruler was once kidnapped by pirates. (Caesar) (I should include the clip from Pirates of the Caribbean--thats got to be the best pirate I've ever seen"],
+questions: ["Which of these states extends the farthest west?", "Which of these former US presidents almost took part in a duel with broadswords (before the other guy backed out)?", "Benjamin Franklin thought the Bald Eagle was dishonorable because it is a scavenger and sometimes steals food from other birds. Which bird did he want to be the national bird instead?", "The country of Sri Lanka was known by this name before 1972:", "This ancient Roman ruler was once kidnapped by pirates."],
 answers: [
     ["Virginia", "West Virginia", "Maine", "South Carolina"],
     ["Teddy Roosevelt", "Abe Lincoln", "Thomas Jefferson", "Jimmy Carter"],
