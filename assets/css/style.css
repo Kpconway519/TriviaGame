@@ -4,5 +4,19 @@ color: #000;
 }
 
 body {
-    background-color: teal;
+    background-image: url('../images/oldmap2.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.allContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.kevHeader {
+    width: 100%;
 }
