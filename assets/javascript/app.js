@@ -48,7 +48,7 @@ var triviaObject = {
     //this section is for the start screen with a button to begin the game. 
     
     function beginGame() {
-    $("#current-question").append("<input type='button' id='start-game' value='Start Game!'>")
+    $("#current-question").append("<input type='button' id='start-game' value='Start Game!' class='btn btn-primary'>")
     $("#start-game").on("click", function() {
         currentQuestion();
         makeAnswers();
@@ -144,6 +144,7 @@ var triviaObject = {
     resultPic.attr("src", triviaObject.pictures[questionSelector]);
     //I chose a button instead of a timer, because a timer felt rushed between questions. A button allows the player to play at their own pace.
     var nextButton = $("<button>");
+    nextButton.addClass('btn btn-info')
     nextButton.text("Next Question");
     //appends everything in the right order
     $("#current-question").append(isAnswerCorrect, resultText, resultPic, brak, nextButton);
