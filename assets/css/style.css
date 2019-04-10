@@ -3,10 +3,16 @@ background: #b100d7;
 color: #000;
 }
 
+.answer-option {
+    background: black;
+    color: white;
+    opacity: .8;
+}
+
 body {
     background-image: url('../images/oldmap2.jpg');
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
 }
 
 .allContent {
@@ -14,9 +20,13 @@ body {
     flex-direction: column;
     color: white;
     justify-content: center;
-    align-content: center;
+}
+
+.allContent * {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kevHeader {
-    width: 100%;
+    color: red;
 }

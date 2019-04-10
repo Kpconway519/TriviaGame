@@ -100,7 +100,7 @@ var triviaObject = {
         //take the triviaObject.answers[questionSelector] and for that item, loop through the items inside and make divs out of them.
         for (i = 0; i < triviaObject.answers[questionSelector].length; i++) {
             //used a two-dimensional array below. to select the correct set of answer responses. piped in a method to add a data-answer attribute for the scoring system as well.
-        var answers = $("<div class='card answer-option'>").text(triviaObject.answers[questionSelector] [i]).attr("data-answer", triviaObject.answers[questionSelector] [i]);
+        var answers = $("<div class='answer-option'>").text(triviaObject.answers[questionSelector] [i]).attr("data-answer", triviaObject.answers[questionSelector] [i]);
         $("#current-question").append(answers);
         };
     
