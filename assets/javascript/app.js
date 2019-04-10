@@ -23,6 +23,44 @@ var triviaObject = {
     ]
     
     };
+
+    let questionObjects = [ 
+    {
+        question: "Which of these states extends the farthest west?",
+        answers: ["Virginia", "West Virginia", "Maine", "South Carolina"],
+        rightAnswer: "Virginia",
+        explanation: "Despite the name, Virginia actually extends farther West than West Virginia",
+        picture: "assets/images/westvirginia.jpg"
+    },
+    {
+        question: "Which of these former US presidents almost took part in a duel with broadswords (before the other guy backed out)?",
+        answers: ["Teddy Roosevelt", "Abe Lincoln", "Thomas Jefferson", "Jimmy Carter"],
+        rightAnswer: "Abe Lincoln",
+        explanation: "A man named James Shields once challenged Abraham Lincoln to a duel. Lincoln got the choice of weapons and chose broadswords. Lincoln's advantage due to his long, lanky arms caused the stocky Shields to call a truce rather than fight",
+        picture: "assets/images/coollincoln.jpg"
+    }, 
+    {
+        question: "Benjamin Franklin thought the Bald Eagle was dishonorable because it is a scavenger and sometimes steals food from other birds. Which bird did he want to be the national bird instead?",
+        answers: ["Sparrow", "Hummingbird", "Peregrine Falcon", "Turkey"],
+        rightAnswer: "Turkey",
+        explanation: "Franklin preferred the turkey, saying it was a 'Bird of Courage'",
+        picture: "assets/images/turkey.png"
+    }, 
+    {
+        question: "The country of Sri Lanka was known by this name before 1972:",
+        answers: ["Ceylon", "Myanmar", "Siam", "Thucydides"],
+        rightAnswer: "Ceylon",
+        explanation: "From 1505 to 1972, Sri Lanka was known as 'Ceylon' from the Persian root word which also gave us the word 'serendipity'",
+        picture: "assets/images/ceylon.jpeg"
+    }, 
+    {
+        question: "This ancient Roman ruler was once kidnapped by pirates.",
+        answers: ["Caligula", "Vespasian", "Julius Caesar", "Hadrian"],
+        rightAnswer: "Julius Caesar",
+        explanation: "In 75BC, Julius Caesar, on a boat trip from Rome to Greece, was abducted by pirates.",
+        picture: "assets/images/bestpirate.jpg"
+    }
+]
     
     //variables for scoring
     
